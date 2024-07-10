@@ -1,18 +1,39 @@
+<script setup>
+import { RouterLink, } from 'vue-router'
+
+defineProps({
+  link: {
+    type: String,
+    required: true,
+    default: '/'
+  }
+})
+</script>
 <template>
   <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
+    <RouterLink :to="link">
+      <i>
+        <slot name="icon"></slot>
+      </i>
+    </RouterLink>
     <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
+      <RouterLink :to="link">
+        <h3>
+          <slot name="heading"></slot>
+        </h3>
+      </RouterLink>
+      <p>
+        <slot></slot>
+      </p>
     </div>
   </div>
 </template>
 
 <style scoped>
+a {
+  padding: 0;
+  margin: 0;
+}
 .item {
   margin-top: 2rem;
   display: flex;
@@ -37,13 +58,17 @@ h3 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
-  color: var(--color-heading);
+  color: #00bd7e;
+}
+
+p {
+  color: #505050;
 }
 
 @media (min-width: 1024px) {
   .item {
     margin-top: 0;
-    padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
+    padding: 0.4rem 0 1rem calc(var(--section-gap) / 4);
   }
 
   i {
