@@ -9,18 +9,18 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="fw-bold green">{{ msg }}</h1>
+    <h1 class="green">{{ msg }}</h1>
     <h3>
       Filmación Profesional y Transmisión en vivo, síguenos en
       <a href="https://facebook.com/acroyanstudios" target="_blank" rel="noopener">Facebook</a> -
-      <a href="https://youtube.com/acroyanstudios" target="_blank" rel="noopener">Youtube</a>
+      <a href="https://youtube.com/@acroyanstudios" target="_blank" rel="noopener">Youtube</a>
     </h3>
   </div>
 </template>
 
 <style scoped>
 h1 {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 2.6rem;
   position: relative;
   top: -10px;
