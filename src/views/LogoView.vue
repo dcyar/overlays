@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translateX(10%) translateY(-10%);
+  transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
   padding: 10px 20px;
   border-radius: 5px;

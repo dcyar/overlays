@@ -5,7 +5,7 @@
     </div>
     <div class="footer">
       <video autoplay loop>
-        <source src="@/assets/sponsors.mp4" type="video/mp4">
+        <source src="@/assets/video/sponsors.webm" type="video/mp4">
         Tu navegador no soporta el elemento de video.
       </video>
     </div>
