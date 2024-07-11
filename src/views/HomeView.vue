@@ -5,7 +5,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 
 <template>
   <header class="sticky-lg-top">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="250" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.webp" width="250" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="ACROYAN STUDIOS" />
