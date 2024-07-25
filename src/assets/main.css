@@ -1,4 +1,4 @@
-@import './base.css';
+/* @import './base.css';
 
 #app {
   max-width: 1280px;
@@ -32,4 +32,25 @@ a,
     grid-template-columns: 2fr 1fr;
     padding: 0 2rem;
   }
+} */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  pointer-events: none; /* Esto asegura que el overlay no interfiera con la captura de pantalla */
 }
+
+/* @font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./fonts/roboto_condensed/RobotoCondensed-Black.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-Regular.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-Bold.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-Light.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-Italic.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-LightItalic.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-BoldItalic.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-Italic.ttf'),
+    url('./fonts/roboto_condensed/RobotoCondensed-LightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */

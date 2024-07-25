@@ -19,5 +19,13 @@ import CameraIcon from './icons/IconCamera.vue'
       <template #heading>Logo</template>
       Overlay para mostrar el logo
     </WelcomeItem>
+
+    <WelcomeItem :link="'/titulo'">
+      <template #icon>
+        <CameraIcon />
+      </template>
+      <template #heading>Título</template>
+      Overlay para mostrar el título en la barra inferior
+    </WelcomeItem>
   </nav>
 </template>

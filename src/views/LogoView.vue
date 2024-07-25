@@ -4,10 +4,6 @@
       <img src="@/assets/logo.webp" class="image" alt="Logo" width="150" />
     </div>
     <div class="footer">
-      <!-- <video autoplay loop>
-        <source src="@/assets/sponsors.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-      </video> -->
     </div>
   </div>
 </template>

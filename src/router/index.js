@@ -23,6 +23,21 @@ const router = createRouter({
       path: '/logo',
       name: 'logo',
       component: () => import('../views/LogoView.vue')
+    },
+    {
+      path: '/titulo',
+      name: 'title',
+      component: () => import('../views/TitleView.vue')
+    },
+    {
+      path: '/events',
+      name: 'events',
+      children: [
+        {
+          path: '270724',
+          component: () => import('../views/270724View.vue')
+        }
+      ]
     }
   ]
 })
