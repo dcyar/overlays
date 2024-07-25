@@ -41,7 +41,7 @@
   
   .footer {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     /* background: rgba(0, 0, 0, 0.5); */
@@ -50,10 +50,6 @@
     color: white;
     text-align: center;
     width: 96%;
-  }
-  
-  .footer > video {
-    width: 100%;
   }
   </style>
   
