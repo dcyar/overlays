@@ -49,7 +49,7 @@
     border-radius: 5px;
     color: white;
     text-align: center;
-    width: 90%;
+    width: 96%;
   }
   
   .footer > video {
