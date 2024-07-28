@@ -1,7 +1,7 @@
 <template>
   <div class="overlay">
     <div class="header">
-      <img src="@/assets/logo.webp" class="image" alt="Logo" width="150" />
+      <img src="@/assets/logo.webp" class="image" alt="Logo" width="250" />
     </div>
     <div class="footer">
     </div>
