@@ -32,7 +32,7 @@ body {
   right: 0;
   transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
-  padding: 10px 20px;
+  padding: 20px 30px;
   border-radius: 5px;
   color: white;
   text-align: center;
