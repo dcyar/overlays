@@ -2,6 +2,7 @@
   <div class="overlay">
     <div class="header">
       <img src="@/assets/logo-white.webp" class="image" alt="Logo" width="250" />
+      <p class="phone">901 891 426</p>
     </div>
     <div class="footer">
     </div>
@@ -36,6 +37,15 @@ body {
   border-radius: 5px;
   color: white;
   text-align: center;
+}
+
+.phone {
+  /* color: #333333; */
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 0 0 4px #000000;
+  padding: 0;
+  margin: 5px 0;
 }
 
 .footer {

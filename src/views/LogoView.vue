@@ -1,7 +1,8 @@
 <template>
   <div class="overlay">
     <div class="header">
-      <img src="@/assets/logo.webp" class="image" alt="Logo" width="250" />
+      <img src="@/assets/logo.webp" class="image" alt="Logo" width="200" />
+      <p class="phone">901 891 426</p>
     </div>
     <div class="footer">
     </div>
@@ -32,10 +33,19 @@ body {
   right: 0;
   transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
-  padding: 20px 30px;
+  padding: 10px 10px;
   border-radius: 5px;
   color: white;
   text-align: center;
+}
+
+.phone {
+  /* color: #333333; */
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 0 0 7px #000000;
+  padding: 0;
+  margin: 5px 0;
 }
 
 .footer {
