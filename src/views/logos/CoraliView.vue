@@ -61,7 +61,7 @@ body {
   }
   100% {
     /* opacity: 0; */
-    transform: translate(50%, 90%) scale(.2);
+    transform: translate(51%, 90%) scale(.2);
   }
 }
 
