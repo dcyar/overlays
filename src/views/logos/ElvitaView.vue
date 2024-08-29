@@ -1,7 +1,7 @@
 <template>
     <div class="overlay">
         <div class="logo">
-            <img class="image" src="@/assets/img/logos/corali.webp" alt="Artista" />
+            <img class="image" src="@/assets/img/logos/elvita.webp" alt="Artista" />
         </div>
     </div>
 </template>
@@ -61,7 +61,7 @@ body {
   }
   100% {
     /* opacity: 0; */
-    transform: translate(52%, 94%) scale(.2);
+    transform: translate(82%, 90%) scale(.3);
   }
 }
 

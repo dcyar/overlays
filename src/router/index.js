@@ -42,15 +42,23 @@ const router = createRouter({
           path: '270724',
           component: () => import('../views/270724View.vue')
         },
+      ]
+    }, 
+    {
+      path: '/logos',
+      children: [
         {
-          path: 'logos',
-          children: [
-            {
-              path: 'corali',
-              component: () => import('../views/logos/CoraliView.vue')
-            }
-          ]
-        }
+          path: 'corali',
+          component: () => import('../views/logos/CoraliView.vue')
+        },
+        {
+          path: 'tios-junior',
+          component: () => import('../views/logos/TiosJuniorView.vue')
+        },
+        {
+          path: 'elvita',
+          component: () => import('../views/logos/ElvitaView.vue')
+        },
       ]
     }
   ]
