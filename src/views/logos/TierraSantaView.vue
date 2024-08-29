@@ -1,7 +1,7 @@
 <template>
     <div class="overlay">
         <div class="logo">
-            <img class="image" src="@/assets/img/logos/tj.webp" alt="Artista" />
+            <img class="image" src="@/assets/img/logos/tierra-santa.webp" alt="Artista" />
         </div>
     </div>
 </template>
@@ -59,7 +59,7 @@ body {
     transform: translate(0, 0) scale(1);
   }
   100% {
-    transform: translate(154%, 88%) scale(.4);
+    transform: translate(52%, 95%) scale(.2);
   }
 }
 

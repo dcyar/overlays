@@ -59,6 +59,26 @@ const router = createRouter({
           path: 'elvita',
           component: () => import('../views/logos/ElvitaView.vue')
         },
+        {
+          path: 'dulce-beatriz',
+          component: () => import('../views/logos/DulceBeatrizView.vue')
+        },
+        {
+          path: 'sami',
+          component: () => import('../views/logos/SamiView.vue')
+        },
+        {
+          path: 'santa-cecilia',
+          component: () => import('../views/logos/SantaCeciliaView.vue')
+        },
+        {
+          path: 'tierra-santa',
+          component: () => import('../views/logos/TierraSantaView.vue')
+        },
+        {
+          path: 'yobana',
+          component: () => import('../views/logos/YobanaView.vue')
+        },
       ]
     }
   ]

@@ -1,7 +1,7 @@
 <template>
     <div class="overlay">
         <div class="logo">
-            <img class="image" src="@/assets/img/logos/tios-junior.webp" alt="Artista" />
+            <img class="image" src="@/assets/img/logos/dulce-beatriz.webp" alt="Artista" />
         </div>
     </div>
 </template>
