@@ -41,6 +41,15 @@ const router = createRouter({
         {
           path: '270724',
           component: () => import('../views/270724View.vue')
+        },
+        {
+          path: 'logos',
+          children: [
+            {
+              path: 'corali',
+              component: () => import('../views/logos/CoraliView.vue')
+            }
+          ]
         }
       ]
     }
