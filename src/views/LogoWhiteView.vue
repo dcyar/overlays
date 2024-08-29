@@ -1,8 +1,16 @@
+<script setup>
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+  const route = useRoute();
+  const imageWidth = computed(() => route.query.w || 200);
+  const phoneSize = computed(() => route.query.pz || 12);
+</script>
 <template>
   <div class="overlay">
     <div class="header">
-      <img src="@/assets/logo-white.webp" class="image" alt="Logo" width="250" />
-      <p class="phone">901 891 426</p>
+      <img src="@/assets/logo-white.webp" class="image" alt="Logo" :width="imageWidth" />
+      <p class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
     </div>
     <div class="footer">
     </div>
@@ -43,7 +51,7 @@ body {
   /* color: #333333; */
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-shadow: 0 0 4px #000000;
+  text-shadow: 0 0 7px #000000;
   padding: 0;
   margin: 5px 0;
 }
