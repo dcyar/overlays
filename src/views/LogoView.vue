@@ -9,7 +9,7 @@ import { useRoute } from 'vue-router';
 <template>
   <div class="overlay">
     <div class="header">
-      <img src="@/assets/logo-white.webp" class="image" alt="Logo" :width="imageWidth" />
+      <img src="@/assets/logo.webp" class="image" alt="Logo" :width="imageWidth" />
       <p class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
     </div>
     <div class="footer">
@@ -41,13 +41,14 @@ body {
   right: 0;
   transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
-  padding: 10px 10px;
+  padding: 20px 30px;
   border-radius: 5px;
   color: white;
   text-align: center;
 }
 
 .phone {
+  /* color: #333333; */
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-shadow: 0 0 7px #000000;
