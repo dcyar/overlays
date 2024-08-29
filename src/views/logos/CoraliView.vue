@@ -41,7 +41,7 @@ body {
     transform: scale(1) rotate3d(-2, 4, 0, -25deg);
   }
   25% {
-    transform: scale(1) rotate3d(2, 2, 0, 25deg);
+    transform: rotate3d(2, 2, 0, 25deg);
   }
   40% {
     transform: rotate3d(-2, 4, 0, -25deg);
@@ -56,15 +56,25 @@ body {
     transform: rotate3d(2, 2, 0, 25deg);
   }
   95% {
-    opacity: 1;
+    /* opacity: 1; */
+    transform: translate(0, 0) scale(1);
   }
   100% {
-    opacity: 0;
+    /* opacity: 0; */
+    transform: translate(50%, 90%) scale(.2);
   }
 }
-/* 40 | 55 | 70 | 85 */
+
+@keyframes movee {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(50%, 90%) scale(.2);
+  }
+}
 
 .image {
-  animation: artista 15s infinite;
+  animation: artista 10s ease-in-out 1 forwards;
 }
 </style>
