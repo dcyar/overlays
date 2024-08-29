@@ -59,7 +59,7 @@ body {
     transform: translate(0, 0) scale(1);
   }
   100% {
-    transform: translate(55%, 90%) scale(.3);
+    transform: translate(55%, 90%) scale(.35);
   }
 }
 
