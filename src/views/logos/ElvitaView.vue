@@ -56,21 +56,10 @@ body {
     transform: rotate3d(2, 2, 0, 25deg);
   }
   95% {
-    /* opacity: 1; */
     transform: translate(0, 0) scale(1);
   }
   100% {
-    /* opacity: 0; */
     transform: translate(82%, 90%) scale(.3);
-  }
-}
-
-@keyframes movee {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-  100% {
-    transform: translate(50%, 90%) scale(.2);
   }
 }
 

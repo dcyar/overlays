@@ -56,25 +56,14 @@ body {
     transform: rotate3d(2, 2, 0, 25deg);
   }
   95% {
-    /* opacity: 1; */
     transform: translate(0, 0) scale(1);
   }
   100% {
-    /* opacity: 0; */
-    transform: translate(154%, 88%) scale(.4);
-  }
-}
-
-@keyframes movee {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-  100% {
-    transform: translate(50%, 90%) scale(.2);
+    transform: translate(55%, 90%) scale(.3);
   }
 }
 
 .image {
-  animation: artista 10s ease-in-out 1 forwards;
+  animation: artista 3s ease-in-out 1 forwards;
 }
 </style>
