@@ -3,8 +3,8 @@ import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
   const route = useRoute();
-  const imageWidth = computed(() => route.query.w || 200);
-  const phoneSize = computed(() => route.query.pz || 12);
+  const imageWidth = computed(() => route.query.w || 250);
+  const phoneSize = computed(() => route.query.pz || 20);
 </script>
 <template>
   <div class="overlay">
