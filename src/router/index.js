@@ -43,7 +43,12 @@ const router = createRouter({
           component: () => import('../views/270724View.vue')
         },
       ]
-    }, 
+    },
+    {
+      path: '/sonido',
+      name: 'sound',
+      component: () => import('../views/SoundView.vue')
+    },
     {
       path: '/logos',
       children: [
