@@ -42,6 +42,19 @@ const router = createRouter({
           path: '270724',
           component: () => import('../views/270724View.vue')
         },
+        {
+          path: '141224',
+          children: [
+            {
+              path: 'logo',
+              component: () => import('../views/141224/LogoView.vue')
+            },
+            {
+              path: 'logos',
+              component: () => import('../views/141224/LogoSView.vue')
+            }
+          ]
+        },
       ]
     },
     {
@@ -55,34 +68,6 @@ const router = createRouter({
         {
           path: 'corali',
           component: () => import('../views/logos/CoraliView.vue')
-        },
-        {
-          path: 'tios-junior',
-          component: () => import('../views/logos/TiosJuniorView.vue')
-        },
-        {
-          path: 'elvita',
-          component: () => import('../views/logos/ElvitaView.vue')
-        },
-        {
-          path: 'dulce-beatriz',
-          component: () => import('../views/logos/DulceBeatrizView.vue')
-        },
-        {
-          path: 'sami',
-          component: () => import('../views/logos/SamiView.vue')
-        },
-        {
-          path: 'santa-cecilia',
-          component: () => import('../views/logos/SantaCeciliaView.vue')
-        },
-        {
-          path: 'tierra-santa',
-          component: () => import('../views/logos/TierraSantaView.vue')
-        },
-        {
-          path: 'yobana',
-          component: () => import('../views/logos/YobanaView.vue')
         },
       ]
     }
