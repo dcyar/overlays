@@ -41,7 +41,7 @@ body {
   right: 0;
   transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
-  padding: 55px 30px 0;
+  padding: 20px 30px 0;
   border-radius: 5px;
   color: white;
   text-align: center;
