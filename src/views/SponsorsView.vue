@@ -4,7 +4,7 @@
       <!-- <h1>Tu Nombre del Stream</h1> -->
     </div>
     <div class="footer">
-      <video src="@/assets/video/sponsors.webm" autoplay loop />
+      <video src="@/assets/video/sponsors.webm" autoplay loop></video>
     </div>
   </div>
 </template>
