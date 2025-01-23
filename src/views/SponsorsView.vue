@@ -4,10 +4,7 @@
       <!-- <h1>Tu Nombre del Stream</h1> -->
     </div>
     <div class="footer">
-      <video autoplay loop>
-        <source src="@/assets/video/sponsors.webm" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-      </video>
+      <video src="@/assets/video/sponsors.webm" autoplay loop />
     </div>
   </div>
 </template>
