@@ -5,10 +5,11 @@ import { useRoute } from 'vue-router';
   const route = useRoute();
   const imageWidth = computed(() => route.query.w || 250);
   const phoneSize = computed(() => route.query.pz || 20);
+  const top = computed(() => route.query.t || 0);
 </script>
 <template>
   <div class="overlay">
-    <div class="header">
+    <div class="header" :style="`top: ${top}px;`">
       <img src="@/assets/logo-white.webp" class="image" alt="Logo" :width="imageWidth" />
       <p class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
     </div>
@@ -37,7 +38,6 @@ body {
 
 .header {
   position: absolute;
-  top: 0;
   right: 0;
   transform: translateX(0%) translateY(0%);
   /* background: rgba(0, 0, 0, 0.5); */
