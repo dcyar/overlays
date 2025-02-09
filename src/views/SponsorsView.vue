@@ -10,16 +10,11 @@ import { useRoute } from 'vue-router';
     <div class="header">
       <!-- <h1>Tu Nombre del Stream</h1> -->
     </div>
-<<<<<<< Updated upstream
-    <div class="footer">
-      <video src="@/assets/video/sponsors.webm" autoplay loop></video>
-=======
     <div class="footer" :style="`bottom: ${b}px;`">
       <video autoplay loop>
         <source src="@/assets/video/sponsors.webm" type="video/mp4">
         Tu navegador no soporta el elemento de video.
       </video>
->>>>>>> Stashed changes
     </div>
   </div>
 </template>
