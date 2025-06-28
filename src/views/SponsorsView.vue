@@ -12,7 +12,7 @@ import { useRoute } from 'vue-router';
     </div>
     <div class="footer" :style="`bottom: ${b}px;`">
       <video autoplay loop>
-        <source src="@/assets/video/sponsors.webm" type="video/mp4">
+        <source src="@/assets/video/sponsors.mp4" type="video/mp4">
         Tu navegador no soporta el elemento de video.
       </video>
     </div>
