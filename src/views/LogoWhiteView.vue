@@ -6,10 +6,14 @@ import { useRoute } from 'vue-router';
   const imageWidth = computed(() => route.query.w || 250);
   const phoneSize = computed(() => route.query.pz || 20);
   const top = computed(() => route.query.t || 0);
+  const logoUniversal = computed(() => route.query.u || false);
 </script>
 <template>
   <div class="overlay">
-    <div class="header" :style="`top: ${top}px;`">
+    <div class="header-left" :style="`top: ${top}px;`">
+      <img v-if="logoUniversal" src="@/assets/logo-universal.png" alt="Logo" width="200" />
+    </div>
+    <div class="header-right" :style="`top: ${top}px;`">
       <img src="@/assets/logo-white.webp" class="image" alt="Logo" :width="imageWidth" />
       <p class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
     </div>
@@ -36,7 +40,18 @@ body {
   pointer-events: none; /* Esto asegura que el overlay no interfiera con la captura de pantalla */
 }
 
-.header {
+.header-left {
+  position: absolute;
+  left: 0;
+  transform: translateX(0%) translateY(0%);
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding: 20px 30px 0;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.header-right {
   position: absolute;
   right: 0;
   transform: translateX(0%) translateY(0%);
