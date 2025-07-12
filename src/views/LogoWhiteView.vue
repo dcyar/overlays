@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 
   const route = useRoute();
   const imageWidth = computed(() => route.query.w || 250);
+  const phone = computed(() => route.query.t || false);
   const phoneSize = computed(() => route.query.pz || 20);
   const top = computed(() => route.query.t || 0);
   const logoUniversal = computed(() => route.query.u || false);
@@ -15,7 +16,7 @@ import { useRoute } from 'vue-router';
     </div>
     <div class="header-right" :style="`top: ${top}px;`">
       <img src="@/assets/logo-white.webp" class="image" alt="Logo" :width="imageWidth" />
-      <p class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
+      <p v-if="phone" class="phone" :style="`font-size: ${phoneSize}px;`">901 891 426</p>
     </div>
     <div class="footer">
     </div>

@@ -1,29 +1,13 @@
-# overlays
+# Overlays Acroyan Studios
 
-This template should help get you started developing with Vue 3 in Vite.
+Conjunto de overlays para acroyan studios
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## Logo Blanco
+Parámetros:
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+w => Tamaño de logo (250px por defecto)
+t => Mostrar teléfono (false por defecto)
+pz => Tamaño de teléfono (20px por defecto)
+t => Top de la imagen (0px por defecto)
+u => Logo de radio universal al lado izquierdo (false por defecto)
 ```
