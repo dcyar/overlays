@@ -619,7 +619,7 @@
                             <h2 className="text-lg font-black text-white mb-4">TU SEÑAL (TX)</h2>
                             
                             <div className={`video-preview ${isEmitting ? 'is-live' : ''}`}>
-                                <video ref={localVideoRef} autoPlay playsInline muted></video>
+                                <video ref={localVideoRef} autoPlay playsInline muted style={{transform: 'scaleX(1)'}}></video>
                                 <div className="preview-tag">{isEmitting ? 'EN VIVO' : 'PREVIEW'}</div>
                                 
                                 {/* Botón flotante exclusivo para celular/tablet cuando está en vivo */}
