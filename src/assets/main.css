@@ -33,12 +33,16 @@ a,
     padding: 0 2rem;
   }
 } */
+
+/* Estilos base del body - NO bloquear scroll ni pointer-events */
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  pointer-events: none; /* Esto asegura que el overlay no interfiera con la captura de pantalla */
+  /* overflow: hidden; */ /* ❌ REMOVIDO: Bloqueaba el scroll en todas las páginas */
+  /* pointer-events: none; */ /* ❌ REMOVIDO: Bloqueaba la interacción en todas las páginas */
 }
+
+/* Los estilos de overflow y pointer-events ahora están SOLO en OverlayView.vue */
 
 /* @font-face {
   font-family: 'Roboto Condensed';

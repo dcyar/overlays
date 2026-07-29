@@ -70,6 +70,21 @@ const router = createRouter({
           component: () => import('../views/logos/CoraliView.vue')
         },
       ]
+    },
+    {
+      path: '/artistas',
+      children: [
+        {
+          path: 'panel',
+          name: 'artistas-panel',
+          component: () => import('../views/artistas/PanelView.vue')
+        },
+        {
+          path: 'overlay',
+          name: 'artistas-overlay',
+          component: () => import('../views/artistas/OverlayView.vue')
+        }
+      ]
     }
   ]
 })

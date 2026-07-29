@@ -29,3 +29,9 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+.env
+
+# Documentation and SQL files in root (except README.md)
+/*.md
+/*.sql
