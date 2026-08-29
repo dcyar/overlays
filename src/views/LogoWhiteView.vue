@@ -4,7 +4,7 @@ import { useRoute } from 'vue-router';
 
   const route = useRoute();
   const imageWidth = computed(() => route.query.w || 250);
-  const phone = computed(() => route.query.t || false);
+  const phone = computed(() => route.query.t || true);
   const phoneSize = computed(() => route.query.pz || 20);
   const top = computed(() => route.query.t || 0);
   const logoUniversal = computed(() => route.query.u || false);
@@ -67,7 +67,7 @@ body {
   /* color: #333333; */
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-shadow: 0 0 7px #000000;
+  text-shadow: 0 0 5px #000000;
   padding: 0;
   margin: 5px 0;
 }
