@@ -6,7 +6,7 @@ import { useRoute } from 'vue-router';
   const imageWidth = computed(() => route.query.w || 250);
   const phone = computed(() => route.query.t || false);
   const phoneSize = computed(() => route.query.pz || 16);
-  const top = computed(() => route.query.t || 0);
+  const top = computed(() => route.query.top || 0);
   const logoUniversal = computed(() => route.query.u || false);
 </script>
 <template>
